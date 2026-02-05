@@ -1,6 +1,6 @@
-# OpenClaw 部署文件
+# Dev Notes
 
-使用 Jekyll + Chirpy 主題建置的文件站。
+使用 Jekyll + Chirpy 主題建置的個人開發筆記。
 
 **線上網址**：https://MomoChenisMe.github.io/momochenisme-dev-notes/
 
