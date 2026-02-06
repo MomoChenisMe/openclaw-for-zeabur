@@ -1,5 +1,5 @@
 /* ===========================================
-   彩色標籤系統
+   Tinted Badge 標籤系統（5 色循環）
    =========================================== */
 
 .post-tag,
@@ -17,47 +17,39 @@ a[href*="/tags/"]:hover {
   transform: scale(1.05);
 }
 
-/* 彩虹標籤顏色 */
-.post-tag:nth-child(6n+1),
-.tag:nth-child(6n+1) {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+/* 1. Sage */
+.post-tag:nth-child(5n+1),
+.tag:nth-child(5n+1) {
+  background: rgba(124, 144, 112, 0.15);
+  color: #7C9070;
 }
 
-.post-tag:nth-child(6n+2),
-.tag:nth-child(6n+2) {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  color: white;
+/* 2. Terracotta */
+.post-tag:nth-child(5n+2),
+.tag:nth-child(5n+2) {
+  background: rgba(212, 132, 94, 0.15);
+  color: #D4845E;
 }
 
-.post-tag:nth-child(6n+3),
-.tag:nth-child(6n+3) {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  color: white;
+/* 3. Blue */
+.post-tag:nth-child(5n+3),
+.tag:nth-child(5n+3) {
+  background: rgba(91, 155, 213, 0.15);
+  color: #5B9BD5;
 }
 
-.post-tag:nth-child(6n+4),
-.tag:nth-child(6n+4) {
-  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
-  color: white;
+/* 4. Lavender */
+.post-tag:nth-child(5n+4),
+.tag:nth-child(5n+4) {
+  background: rgba(155, 138, 168, 0.15);
+  color: #9B8AA8;
 }
 
-.post-tag:nth-child(6n+5),
-.tag:nth-child(6n+5) {
-  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
-  color: white;
-}
-
-.post-tag:nth-child(6n+6),
-.tag:nth-child(6n+6) {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  color: #333;
-}
-
-/* 深色模式：第 6 種標籤文字顏色調整 */
-html[data-mode='dark'] .post-tag:nth-child(6n+6),
-html[data-mode='dark'] .tag:nth-child(6n+6) {
-  color: #1a1a1a;
+/* 5. Beige */
+.post-tag:nth-child(5n+5),
+.tag:nth-child(5n+5) {
+  background: rgba(201, 184, 168, 0.15);
+  color: #8B7A6A;
 }
 
 /* 分類頁面標籤 */

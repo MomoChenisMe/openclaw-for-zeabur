@@ -12,15 +12,15 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, hsl(220, 60%, 60%) 0%, hsl(250, 50%, 55%) 100%);
+  background: var(--accent-color);
   border-radius: var(--radius-xl);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, hsl(220, 70%, 50%) 0%, hsl(250, 60%, 45%) 100%);
+  background: var(--accent-dark);
 }
 
 /* 深色模式滾動條 */
 html[data-mode='dark'] ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, hsl(220, 40%, 40%) 0%, hsl(250, 35%, 35%) 100%);
+  background: var(--accent-light);
 }

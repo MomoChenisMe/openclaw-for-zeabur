@@ -6,26 +6,26 @@
   --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.4);
 
   /* Framework color - Developer Tool inspired (#0F172A) */
-  --main-bg: #0f172a;
-  --mask-bg: rgb(68 69 70);
-  --main-border-color: #1e293b;
+  --main-bg: #1A1A1A;
+  --mask-bg: rgb(50 50 50);
+  --main-border-color: #333333;
 
   /* Common color - Higher contrast for dark mode readability */
-  --text-color: #e2e8f0;
-  --text-muted-color: #94a3b8;
+  --text-color: #E0E0DE;
+  --text-muted-color: #6B6B6B;
   --text-muted-highlight-color: #cbd5e1;
-  --heading-color: #f1f5f9;
+  --heading-color: #E0E0DE;
   --label-color: #94a3b8;
-  --blockquote-border-color: rgb(66 66 66);
-  --blockquote-text-color: #868686;
-  --link-color: #60a5fa;
-  --link-underline-color: rgb(82 108 150);
-  --button-bg: #1e1e1e;
-  --btn-border-color: #2e2f31;
+  --blockquote-border-color: #94A88A;
+  --blockquote-text-color: #8E8E93;
+  --link-color: #94A88A;
+  --link-underline-color: #333333;
+  --button-bg: #252525;
+  --btn-border-color: #333333;
   --btn-backtotop-color: var(--text-color);
   --btn-backtotop-border-color: #212122;
   --card-header-bg: #292929;
-  --checkbox-color: rgb(118 120 121);
+  --checkbox-color: #6B6B6B;
   --checkbox-checked-color: var(--link-color);
   --img-bg: radial-gradient(circle, rgb(22 22 24) 0%, rgb(32 32 32) 100%);
   --shimmer-bg: linear-gradient(
@@ -36,23 +36,23 @@
   );
 
   /* Sidebar */
-  --site-title-color: #94a3b8;
-  --site-subtitle-color: #94a3b8;
-  --sidebar-bg: #1e293b;
-  --sidebar-border-color: #334155;
-  --sidebar-muted-color: #94a3b8;
-  --sidebar-active-color: rgb(255 255 255 / 95%);
-  --sidebar-hover-bg: #334155;
-  --sidebar-btn-bg: #1e293b;
-  --sidebar-btn-color: #94a3b8;
-  --avatar-border-color: rgb(206 206 206 / 90%);
+  --site-title-color: #8E8E93;
+  --site-subtitle-color: #6B6B6B;
+  --sidebar-bg: #1A1A1A;
+  --sidebar-border-color: #333333;
+  --sidebar-muted-color: #6B6B6B;
+  --sidebar-active-color: #E0E0DE;
+  --sidebar-hover-bg: rgba(124, 144, 112, 0.12);
+  --sidebar-btn-bg: #252525;
+  --sidebar-btn-color: #6B6B6B;
+  --avatar-border-color: #333333;
 
   /* Topbar */
-  --topbar-bg: rgb(27 27 30 / 64%);
+  --topbar-bg: rgb(26 26 26 / 64%);
   --topbar-text-color: var(--text-color);
-  --search-border-color: rgb(55 55 55);
-  --search-icon-color: rgb(100 102 105);
-  --input-focus-border-color: rgb(112 114 115);
+  --search-border-color: #333333;
+  --search-icon-color: #6B6B6B;
+  --input-focus-border-color: #6B6B6B;
 
   /* Home page */
   --post-list-text-color: rgb(175 176 177);
@@ -60,7 +60,7 @@
   --btn-paginator-hover-color: #2e2e2e;
 
   /* Posts */
-  --toc-highlight: rgb(116 178 243);
+  --toc-highlight: #94A88A;
   --toc-popup-border-color: #373737;
   --tag-hover: rgb(43 56 62);
   --tb-odd-bg: #252526; /* odd rows of the posts' table */
@@ -68,9 +68,9 @@
   --tb-border-color: var(--tb-odd-bg);
   --footnote-target-bg: rgb(63 81 181);
   --btn-share-color: #6c757d;
-  --btn-share-hover-color: #bfc1ca;
-  --card-bg: #1e293b;
-  --card-hover-bg: #334155;
+  --btn-share-hover-color: #94A88A;
+  --card-bg: #252525;
+  --card-hover-bg: #333333;
   --card-shadow: rgb(21 21 21 / 72%) 0 6px 18px 0,
     rgb(137 135 135 / 24%) 0 0 0 1px;
   --kbd-wrap-color: #6a6a6a;
@@ -80,7 +80,7 @@
   --prompt-tip-bg: rgb(22 60 36 / 64%);
   --prompt-tip-icon-color: rgb(15 164 15 / 81%);
   --prompt-info-bg: rgb(7 59 104 / 80%);
-  --prompt-info-icon-color: #0075d1;
+  --prompt-info-icon-color: #5B9BD5;
   --prompt-warning-bg: rgb(90 69 3 / 88%);
   --prompt-warning-icon-color: rgb(255 165 0 / 80%);
   --prompt-danger-bg: rgb(86 28 8 / 80%);
@@ -103,15 +103,15 @@
   --timeline-year-dot-color: var(--timeline-color);
 
   /* Code highlight colors - deeper slate tone */
-  --language-border-color: #1e293b;
-  --highlight-bg-color: #0c1222;
-  --highlighter-rouge-color: #93c5fd;
-  --highlight-lineno-color: #808080;
-  --inline-code-bg: rgb(255 255 255 / 5%);
-  --code-color: #b0b0b0;
-  --code-header-text-color: #6a6a6a;
-  --code-header-muted-color: #353535;
-  --code-header-icon-color: #565656;
+  --language-border-color: #333333;
+  --highlight-bg-color: #1A1A1A;
+  --highlighter-rouge-color: #94A88A;
+  --highlight-lineno-color: #6B6B6B;
+  --inline-code-bg: rgba(148, 168, 138, 0.1);
+  --code-color: #E0E0DE;
+  --code-header-text-color: #6B6B6B;
+  --code-header-muted-color: #333333;
+  --code-header-icon-color: #6B6B6B;
   --clipboard-checked-color: #2bcc2b;
   --filepath-text-color: #cacaca;
 
@@ -145,11 +145,11 @@
   #archives li:nth-child(odd) {
     background-image: linear-gradient(
       to left,
-      rgb(26 26 30),
-      rgb(39 39 45),
-      rgb(39 39 45),
-      rgb(39 39 45),
-      rgb(26 26 30)
+      rgb(26 26 26),
+      rgb(37 37 37),
+      rgb(37 37 37),
+      rgb(37 37 37),
+      rgb(26 26 26)
     );
   }
 
