@@ -1,0 +1,46 @@
+/* ===========================================
+   自訂設計令牌 (Design Tokens)
+   Based on: Human-Centered Minimalism + Dark Mode First
+   Color ref: Developer Tool (#1E293B) + E-Ink Paper (#FDFBF7)
+   =========================================== */
+
+:root {
+  --base-hue: 220;
+  --accent-color: hsl(220, 85%, 55%);
+  --accent-light: hsl(220, 85%, 65%);
+  --accent-dark: hsl(220, 85%, 45%);
+
+  /* 語意色彩 */
+  --color-success: hsl(145, 65%, 42%);
+  --color-warning: hsl(35, 90%, 55%);
+  --color-danger: hsl(0, 75%, 55%);
+  --color-info: hsl(200, 80%, 50%);
+
+  /* 圓角（8px grid） */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  /* 陰影 */
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+  /* 間距（8px grid） */
+  --space-xs: 0.25rem;  /* 4px */
+  --space-sm: 0.5rem;   /* 8px */
+  --space-md: 1rem;     /* 16px */
+  --space-lg: 1.5rem;   /* 24px */
+  --space-xl: 2rem;     /* 32px */
+  --space-2xl: 3rem;    /* 48px */
+
+  /* 過渡動畫 */
+  --transition-smooth: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 減少動態效果偏好 */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-smooth: none;
+  }
+}

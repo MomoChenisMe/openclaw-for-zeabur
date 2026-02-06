@@ -1,0 +1,73 @@
+/* ===========================================
+   彩色標籤系統
+   =========================================== */
+
+.post-tag,
+.tag,
+a[href*="/tags/"] {
+  border-radius: var(--radius-xl);
+  padding: 0.25rem 0.75rem;
+  font-weight: 500;
+  transition: var(--transition-smooth);
+}
+
+.post-tag:hover,
+.tag:hover,
+a[href*="/tags/"]:hover {
+  transform: scale(1.05);
+}
+
+/* 彩虹標籤顏色 */
+.post-tag:nth-child(6n+1),
+.tag:nth-child(6n+1) {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.post-tag:nth-child(6n+2),
+.tag:nth-child(6n+2) {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+}
+
+.post-tag:nth-child(6n+3),
+.tag:nth-child(6n+3) {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+}
+
+.post-tag:nth-child(6n+4),
+.tag:nth-child(6n+4) {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  color: white;
+}
+
+.post-tag:nth-child(6n+5),
+.tag:nth-child(6n+5) {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  color: white;
+}
+
+.post-tag:nth-child(6n+6),
+.tag:nth-child(6n+6) {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  color: #333;
+}
+
+/* 深色模式：第 6 種標籤文字顏色調整 */
+html[data-mode='dark'] .post-tag:nth-child(6n+6),
+html[data-mode='dark'] .tag:nth-child(6n+6) {
+  color: #1a1a1a;
+}
+
+/* 分類頁面標籤 */
+#tags-list .tag-wrapper,
+.tag-cloud a {
+  border-radius: var(--radius-xl);
+  transition: var(--transition-smooth);
+}
+
+#tags-list .tag-wrapper:hover,
+.tag-cloud a:hover {
+  transform: translateY(-2px);
+}
